@@ -1,0 +1,59 @@
+/* CSS Document */
+
+#divSidebar {
+	float: left;
+	width: 168px;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 3000px;
+	padding-left: 15px;
+	background-color: #FFFFFF;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #666666;
+	padding-bottom: 3000px;
+	margin-bottom: -2800px;
+}
+#divSidebar ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	padding-left: 10px;
+}
+#divSidebar a {
+	text-decoration: none;
+	display: block;
+	color: #000000;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+#divSidebar a:hover {
+	color: #666666;
+}
+#divSidebarLinks {
+	margin-top: 10px;
+}
+#divSidebarHeader {
+	margin-top: 30px;
+	background-image: url(../images/sidebarheader4.gif);
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	padding-top: 3px;
+	padding-bottom: 5px;
+	color: #FFFFFF;
+	font-weight: normal;
+}
+#divSidebarNews li {
+	margin-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	list-style: none;
+}
+#divSidebarHeader a {
+	color: #FFFFFF;
+	padding: 0px;
+}
+#divSidebarHeader a:hover {
+	text-decoration: underline;
+	color: #FFFFFF;
+}

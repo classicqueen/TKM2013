@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Robot Page Layout.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>McKinley Robotics - Robot Links</title>
+<!-- InstanceEndEditable -->
+<script src="../scripts/dropdown.js"></script>
+<link href="../css2/master2.css" rel="stylesheet" type="text/css" />
+<link href="../first/robot/robot.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+<!--
+.style1 {color: #666666}
+-->
+</style>
+<link rel="shortcut icon" href="../favicon.ico" >
+<!-- InstanceBeginEditable name="head" --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable --><!-- InstanceEndEditable -->
+</head>
+
+<body class="Current">
+<div id="divWrapper">
+	<div id="divHeader">
+		<div id="divLogo"><a href="../index.php"><img src="../images/banner.jpg" width="798" height="100" border="0" /></a></div>
+		<div id="divHome"><li><div align="left"><a href="../index.php"></a></div>
+		</li>
+		</div>
+		<div id="divNavigation">
+		  <ul id="nav">
+		  	<li><a href="../first.htm" id="aCurrent">FIRST ROBOTICS</a>
+				<ul>
+					<li><a href="../first/lunacy.htm">FIRST Lunacy</a></li>
+					<li><a href="../first/gallery/week1gallery.htm">· Week 1</a></li>
+					<li><a href="../first/gallery/week2gallery.htm">· Week 2</a></li>
+					<li><a href="../first/gallery/week3gallery.htm">· Week 3</a></li>
+					<li><a href="../first/gallery/week4gallery.htm">· Week 4</a></li>
+					<li><a href="../first/gallery/week5gallery.htm">· Week 5</a></li>
+					<li><a href="../first/gallery/week6gallery.htm">· Week 6</a></li>
+					<li><a href="../first/gallery/crunchtimegallery.htm">· Crunch Time</a></li>
+					<li><a href="../first/hawaii.htm">· Hawaii Regional</a></li>
+					<li><a href="../first/championships.htm">· World Championships</a></li>
+					<li><a href="../first/robot.htm">· The Robot</a></li>
+				</ul>			
+			</li>
+			
+					  	<li><a href="../vex.htm" id="aVex">VEX ROBOTICS</a>
+				<ul>
+					<li><a href="../vex/cleansweep.htm">VEX Elevation</a></li>
+					<li><a href="../vex/september.htm">· September</a></li>
+					<li><a href="../vex/october.htm">· October</a></li>
+					<li><a href="../vex/oahu.htm">· Oahu Tournament</a></li>
+					<li><a href="../vex/panpacific.htm">· Pan Pacific Regional</a></li>
+					<li><a href="../vex/world.htm">· World Championships</a></li>
+					<li><a href="../vex/bots.htm">· The Bots</a></li>
+				</ul>			
+			</li>
+			
+
+			<li><a href="../roster.htm" id="aMembers">MEMBERS</a>
+				<ul>
+					<li><a href="../members/students.php">Students</a></li>
+					<li><a href="../members/first.htm">· FIRST Subgroups</a></li>
+					<li><a href="../members/vex.htm">· VEX Teams</a></li>
+					<li><a href="../members/mentors.php">Mentors</a></li>
+				</ul>
+			</li>
+						
+			<li><a href="../aboutus.htm" id="aAboutus">ABOUT US</a>
+				<ul>
+					<li><a href="../aboutus/history.htm">Team History</a></li>
+					<li><a href="../aboutus/competitions.htm">Past Competitions</a></li>
+					<li><a href="../aboutus/awards.htm">Awards</a></li>
+					<li><a href="../aboutus/outreach.htm">Community Outreach</a></li>
+					<li><a href="../aboutus/fundraising.htm">Fundraising</a></li>
+					<li><a href="../aboutus/testimonials.htm">Testimonials</a></li>
+				</ul>
+			</li>
+			
+			<li><a href="../contactus.php" id="aContacts">CONTACTS</a></li>
+			
+		    <li><a href="../sponsors.htm" id="aSponsors">SPONSORS</a></li>
+		    
+			<li><a href="../resources.htm" id="aLinks">LINKS</a>				
+
+	      </ul>
+	    </div>
+  </div>
+  <div id="divContentWrapper">
+ 
+		
+			<div id="divContent"><!-- InstanceBeginEditable name="main content area" --> 
+			  <table width="730" border="0">
+                <tr>
+                  <td width="125" valign="top" align="right"><a href="../first/robot.htm"><img src="../first/robot/images/ingbot.gif" alt="IngBot" width="177" height="91" border="0" /></a></td>
+                  <td width="275">&nbsp;</td>
+                  <td width="191"><div align="right"><a href="../first/robot/mechanics.htm"><img src="../first/robot/images/mechanics.gif" alt="Mechanics" width="40" height="40" border="0" /></a> <a href="../first/robot/electronics.htm"><img src="../first/robot/images/electronics.gif" alt="Electronics" width="40" height="40" border="0" /></a> <a href="../first/robot/control.htm"><img src="../first/robot/images/control.gif" alt="Control System" width="40" height="40" border="0" /></a> <a href="../first/robot/techspecs.htm"><img src="../first/robot/images/tech.gif" alt="Technical Specifications" width="40" height="40" border="0" /></a><br />
+                     </div></td>
+                </tr>
+              </table>
+			  <!-- TemplateBeginEditable name="Robot content" -->
+			  <p>Content area</p> 
+		    <!-- TemplateEndEditable -->
+			</br>
+			<!-- InstanceEndEditable --></div>
+  </div>
+</div>
+<div id="divFooter">2000-2009 © President William McKinley High School Robotics</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-2862862-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+<!-- InstanceEnd --></html>
+ 

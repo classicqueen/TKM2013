@@ -1,0 +1,129 @@
+/* CSS Document */
+#divMechanics {
+	float: left;
+	width: 245px;
+	height: 30px;
+	background-image:url(../first/robot/images/mechanicsBG.gif);
+	background-repeat: repeat-x;
+	border: 1px solid #666666;
+}
+#divMechanics ul {
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+}
+#divMechanics li {
+	display: block;
+	float: left;
+}
+#divMechanics li a {
+	float: left;
+	color: #FFFFFF;
+	text-decoration: none;
+	height: auto;
+	padding-top: 7px;
+	padding-right: 15px;
+	padding-bottom: 7px;
+	padding-left: 15px;
+}
+#divMechanics li a:hover {
+	background-image: url(../first/robot/images/mechanicsBG_hover.gif);
+	background-repeat: repeat-x;
+}
+
+
+
+
+#divElectronics {
+	float: left;
+	width: 281px;
+	height: 30px;
+	background-image: url(../first/robot/images/electronicsBG.gif);
+	background-repeat: repeat-x;
+	border: 1px solid #666666;
+	color: #FFF;
+}
+#divElectronics ul {
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+	color: #FFF;	
+}
+#divElectronics li {
+	display: block;
+	float: left;
+	color: #FFF;	
+}
+#divElectronics li a {
+	float: left;
+	color: #FFFFFF;
+	text-decoration: none;
+	height: auto;
+	padding-top: 7px;
+	padding-right: 15px;
+	padding-bottom: 7px;
+	padding-left: 15px;
+}
+#divElectronics li a:hover {
+	background-image: url(../first/robot/images/electronicsBG_hover.gif);
+	background-repeat: repeat-x;
+}
+
+
+#divControl {
+	float: left;
+	width: 262px;
+	height: 30px;
+	background-image: url(../first/robot/images/controlBG.gif);
+	background-repeat: repeat-x;
+	border: 1px solid #666666;
+}
+#divControl ul {
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+}
+#divControl li {
+	display: block;
+	float: left;
+	color: #FFF;
+}
+#divControl li a {
+	float: left;
+	color: #FFFFFF;
+	text-decoration: none;
+	height: auto;
+	padding-top: 7px;
+	padding-right: 20px;
+	padding-bottom: 7px;
+	padding-left: 20px;
+}
+#divControl li a:hover {
+	background-image: url(../first/robot/images/controlBG_hover.gif);
+	background-repeat: repeat-x;
+}
+
+
+		#techspecs .techspecs { font-size:11px; border-collapse:collapse; }
+		#techspecs .techspecs th {
+	width:8.8em;
+	text-align: left;
+	color: #FFFFFF;
+}
+		#techspecs .techspecs th,
+		#techspecs .techspecs td {
+	vertical-align:top;
+	padding:0.5em 0;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+}
+		#techspecs .techspecs td {
+	text-align:right;
+	padding-left: 4em;
+	color: #FFF;
+}
+

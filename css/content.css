@@ -1,0 +1,187 @@
+/* CSS Document */
+
+/*main content*/
+#divContent {
+	float: left;
+	padding-right: 45px;
+	/*padding-bottom: 30px; */
+	padding-left: 45px;
+	padding-bottom: 20px;
+	width: 882px;
+	background-color: #FFFFFF;
+}
+
+/*main content and sidebar*/
+#divContentWrapper{
+	float: left;
+	width: 972px;
+	overflow: hidden;
+}
+
+#divContent a img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#left {
+	float: left;
+	width: 68px;
+	text-align: center;
+}
+#top {
+}
+#top ul {
+	list-style-type: none;
+	padding-right: 13px;
+	padding-left: 13px;
+}
+#top li {
+	float: left;
+	clear: none;
+	display: block;
+}
+#testimonial {
+	padding-right: 16px;
+	padding-left: 13px;
+	float: none;
+	padding-top: 10px;
+}
+#pic {
+	height: 80px;
+	width: 80px;
+	float: none;
+}
+#test {
+	padding-top: 8px;
+}
+#testtext {
+	padding-right: 13px;
+	padding-left: 13px;
+}
+
+#divTree {
+	margin-left:-45px;
+	margin-right:-45px;
+	margin-top: -5px;
+	padding-top: 10px;
+	width: 974px;
+	height: 40px;
+	/*padding-bottom: 25px;*/
+	color: #ffffff;
+	font-size: 13px;
+	z-index: 100;
+}
+
+#divTree a{
+	color: #CCCCCC;
+	text-decoration:none;
+}
+
+#divTree a:hover{
+	color:#ffffff;
+	text-decoration:none;
+}
+
+#divTree.first{
+	background-image:url(../images/sectionheader/first.png);
+	background-position:left;
+	background-repeat:no-repeat;
+}
+
+#divTree.first-regionals{
+	background-image:url(../images/sectionheader/first_regionals.png);
+	background-position:left;
+	background-repeat:no-repeat;
+	padding-top: 11px;
+	margin-top: -6px;
+	height: 80px;
+}
+
+#divTree.roster{
+	background-image:url(../images/sectionheader/roster.png);
+	background-position:left;
+	background-repeat:no-repeat;
+}
+
+#divTree.aboutUs{
+	background-image:url(../images/sectionheader/aboutus.png);
+	background-position:left;
+	background-repeat:no-repeat;
+}
+
+#divTree.aboutUs-site{
+	background-image:url(../images/sectionheader/aboutus.png);
+	background-position:left;
+	background-repeat:no-repeat;
+	margin-bottom:-15px;
+}
+
+#divTree.aboutUs-competitions{
+	background-image:url(../images/sectionheader/aboutus_competitions.png);
+	height:80px;
+	background-position:left;
+	background-repeat:no-repeat;
+	padding-top: 11px;
+	margin-top: -6px;
+}
+
+#divTree.Sponsors{
+	background-image:url(../images/sectionheader/sponsors.png);
+	background-position:left;
+	background-repeat:no-repeat;
+}
+
+#divTree.resources{
+	background-image:url(../images/sectionheader/resources.png);
+	background-position:left;
+	background-repeat:no-repeat;
+}
+
+#divTree.contactUs{
+	background-image:url(../images/sectionheader/contactus.png);
+	background-position:left;
+	background-repeat:no-repeat;
+}
+
+#divTree.siteMap{
+	background-image:url(../images/sectionheader/sitemap.png);
+	background-position:left;
+	background-repeat:no-repeat;
+	margin-top: -3px;
+}
+
+#divText {
+	padding-left: 57px;
+	margin-top: 5px;
+}
+
+#divText2 {
+	padding-left: 87px;
+	margin-top: -21px;
+	padding-top: 48px;
+	color: #FFFFFF;
+}
+
+#divText2 a {
+	color: #606060;
+}
+
+#spanText1 {
+	color: #000000;
+}
+
+.spaced {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.selected {
+	font-weight: bold;
+}
+
+#divTree a:hover{
+	color:#FFFFFF;
+}
+#divScript{border:3px solid #FF0000; margin:8px 0; background:#ff7f7f; color:#000;}
+#divScript h4{margin:8px; padding:0;}

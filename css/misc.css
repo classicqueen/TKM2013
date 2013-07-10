@@ -1,0 +1,40 @@
+/* CSS Document */
+
+html{
+	overflow: scroll;
+}
+
+#divWrapper {
+	width: 970px;
+	margin-top: 14px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	display: block;
+}
+
+body {
+	margin: 0px;
+	text-align: justify;
+	background-color: #000000;
+}
+
+#divFooter {
+	color: #DCDCDC;
+	font-size: 0.8em;
+	text-align: center;
+	padding: 10px;
+	clear: both;
+	height: 30px;
+	width: auto;
+}
+
+#divFooter a{
+	color: #DCDCDC;
+	text-decoration:none;
+}
+
+#divFooter a:hover{
+	color: #ffff00;
+	text-decoration:underline;
+}

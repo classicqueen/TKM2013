@@ -1,0 +1,71 @@
+/* Tabs
+----------------------------------*/
+.ui-tabs { 
+	display:inline-block;
+}
+.ui-tabs .ui-tabs-nav {
+	display:block; 
+	list-style: none; 
+	position:relative; 
+	margin-right:5px;
+	background-image:url(../images/menuhover2.gif); 
+	background-position:center; 
+	background-repeat:repeat-x;
+}
+.ui-tabs .ui-tabs-nav li {
+	display:block; 
+	background-image:url(../images/menuhover2.gif); 
+	background-position:center; 
+	background-repeat:repeat-x; 
+	width:136px; 
+	height:25px; 
+	float:left; 
+	border-width:1px;
+	border-color:#ffff00 !important; 
+	margin: 10px 12px 0px 25px;
+}
+.ui-tabs .ui-tabs-nav li a { 
+	padding-top:12px; 
+	padding-bottom:14px; 
+	width:136px; 
+	text-decoration: none; 
+	color:#ffff00;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected { 
+	background-image:url(../images/menucurrent2.gif); 
+	background-position:center; 
+	background-repeat:repeat-x;
+	font-weight:bold;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a {
+	cursor: text; 
+	color:#000000;
+}
+.ui-tabs .ui-tabs-nav li a:hover { 
+	background-image:url(../images/menu2.gif); 
+	background-position:center; 
+	background-repeat:repeat-x; 
+	color:#FFFF00;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a:hover, .ui-tabs .ui-tabs-nav li.ui-state-disabled a:hover, .ui-tabs .ui-tabs-nav li.ui-state-processing a:hover {
+	background-image:url(../images/menucurrent2.gif); 
+	background-position:center; 
+	background-repeat:repeat-x;
+	color:#000000;
+}
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { 
+	cursor: pointer; 
+} 
+/* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel { 
+	padding:0px 15px 0px 10px; 
+	margin:0px; 
+	border:0px; 
+	display:block; 
+	background: none; 
+	float:left; 
+	text-align:justify;
+}
+.ui-tabs .ui-tabs-hide {
+	display: none !important;
+}

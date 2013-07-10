@@ -1,0 +1,30 @@
+/* CSS Document */
+
+#divWrapper {
+	width: 800px;
+/*	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #CDCDCD;
+	border-left-color: #CDCDCD;		*/
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+body {
+	margin: 0px;
+	text-align: justify;
+	background-image: url(../images/backgroundgrid.gif);
+	background-repeat: repeat;
+}
+#divFooter {
+	color: #DCDCDC;
+	font-size: 0.8em;
+	text-align: center;
+	padding: 10px;
+	clear: both;
+	height: 20px;
+	width: auto;
+}

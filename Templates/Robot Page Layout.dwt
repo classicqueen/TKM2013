@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>McKinley Robotics - The Robot</title>
+<!-- TemplateEndEditable -->
+<script src="../scripts/prototype.js" type="text/javascript"></script>
+<script src="../scripts/scriptaculous.js" type="text/javascript"></script>
+<script src="../scripts/menu.js" type="text/javascript"></script>
+<link href="../css/master.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+<!--
+.style1 {color: #666666}
+-->
+</style>
+<link rel="shortcut icon" href="../favicon.ico" />
+</head>
+
+<body class="@@(_document['Section Class'])@@" onload="javascript:Frelling();">
+<noscript><div id="divScript">
+<h4 align="center">This site requires that Javascript be enabled in your browser in order to function properly.</h4>
+</div></noscript>
+<div id="divWrapper">
+	<div id="divHeader">
+	  <div id="divLogo">
+	  <a href="../index.php"><img src="../images/banner.png" alt="TKM.368" width="946" height="75" border="0" /></a></div>
+<div id="menu">
+		  <ul class="level1" id="root">
+          <li><div class="tm" id="aTm"><a href="../index.php">TKM</a></div>
+            <li>
+            <div class="ft" id="aCurrent"><a href="../first/programs/frc.htm">FIRST</a></div>
+                <ul class="level2">
+					<li><a href="../first/reboundrumble.htm">FIRST Logo Motion</a></li>
+                    <li><a href="../first/build.htm">• Build Season<span style="float:right; margin-right:4px; font-weight:bold; font-family:Arial Narrow">&gt;&gt;</span></a>
+                    	<ul class="level3" style="width:107px">
+                        	<li><a href="../first/gallery/week1.htm" style="width:90px">Week 1</a></li>
+                            <li><a href="../first/gallery/week2.htm" style="width:90px">Week 2</a></li>
+                            <li><a href="../first/gallery/week3.htm" style="width:90px">Week 3</a></li>
+                            <li><a href="../first/gallery/week4.htm" style="width:90px">Week 4</a></li>
+                            <li><a href="../first/gallery/week5.htm" style="width:90px">Week 5</a></li>
+                            <li><a href="../first/gallery/week6.htm" style="width:90px">Week 6</a></li>
+                            <li><a href="../first/gallery/crunchtime.htm" style="width:90px">Crunch Time</a></li>
+                        </ul>
+                    </li>
+					<li><a href="../first/hawaii.htm">• Hawaii Regional</a></li>
+					<li><a href="../first/robot.htm">• The Robot</a></li>
+					<li><a href="../first.htm">Other FIRST Programs<span style="float:right; margin-right:4px; font-weight:bold; font-family:Arial Narrow">&gt;&gt;</span></a>
+						<ul class="level3" style="width:62px">
+                            <li><a href="../first/programs/ftc.htm" style="width:45px">FTC</a></li>
+                            <li><a href="../first/programs/fll.htm" style="width:45px">FLL</a></li>
+                            <li><a href="../first/programs/jfll.htm" style="width:45px">JFLL</a></li>
+                        </ul>
+                    </li>
+				</ul>
+			</li>
+            
+
+	  	  
+          <li>
+				<div class="vx" id="aVex"><a href="../vex.htm">VEX</a></div>
+				<ul class="level2">
+					<li><a href="../vex/gateway.htm">VEX Round Up</a></li>
+                     <li><a href="../vex/buildseason.htm">• Build Season</a>
+                    </li>
+                    <li><a href="../vex/vexhibition.htm">• Vexhibition</a></li>
+                    <li><a href="../vex/mililani.htm">• Mililani Tournament</a></li>
+					<li><a href="../vex/oahueast.htm">• Oahu East Tournament</a></li>
+					<li><a href="../vex/bigisland.htm">• Big Island Tournament</a></li>
+					<li><a href="../vex/panpacific.htm">• Pan Pacific Championship</a></li>
+					<li><a href="../vex/bots.htm">• The Bots</a></li>
+				</ul>			
+			</li>
+			<li><div class="bl" id="aBb"><a href="../botball.htm">BOTBALL</a></div>
+			<li>
+				<div class="mr" id="aMembers"><a href="../roster.htm">MEMBERS</a></div>
+				<ul class="level2">
+					<li><a href="../members/students.php">Students</a></li>
+					<li><a href="../members/first.htm">• FIRST Subgroups<span style="float:right; margin-right:4px; font-weight:bold; font-family:Arial Narrow">&gt;&gt;</span></a>
+                    	<ul class="level3" style="width:132px">
+                        	<li><a href="../members/first/mechanical.php" style="width:115px">Mechanical</a></li>
+                            <li><a href="../members/first/electrical.php" style="width:115px">Electrical</a></li>
+                            <li><a href="../members/first/animation.php" style="width:115px">Communications</a></li>
+                       </ul>
+                    </li>
+					<li><a href="../members/vex.htm">• VEX Teams<span style="float:right; margin-right:4px; font-weight:bold; font-family:Arial Narrow">&gt;&gt;</span></a>
+                    	<ul class="level3" style="width:62px">
+                        	<li><a href="../members/vex/a.php" style="width:45px">368A</a></li>
+                        	<li><a href="../members/vex/b.php" style="width:45px">368B</a></li>
+                        	<li><a href="../members/vex/c.php" style="width:45px">368C</a></li>
+                        	<li><a href="../members/vex/d.php" style="width:45px">368D</a></li>
+                        	<li><a href="../members/vex/f.php" style="width:45px">368F</a></li>
+                        	<li><a href="../members/vex/g.php" style="width:45px">368G</a></li>
+                       </ul>
+                    </li>
+					<li><a href="../members/mentors.php">Mentors</a></li>
+				</ul>
+			</li>
+			<li><div class="as" id="aAboutus"><a href="../aboutus.htm">ABOUT US</a></div>
+				<ul class="level2">
+					<li><a href="../aboutus/history.htm">Team History</a></li>
+					<li><a href="../aboutus/competitions.htm">Past Competitions<span style="float:right; margin-right:4px; font-weight:bold; font-family:Arial Narrow">&gt;&gt;</span></a>
+                    	<ul class="level3">
+                            <li><a href="../aboutus/competitions/2000.htm">1999-2000: Co-Opertition FIRST</a></li>
+                            <li><a href="../aboutus/competitions/2001.htm">2000-2001: Diabolical Dynamics</a></li>
+                            <li><a href="../aboutus/competitions/2002.htm">2001-2002: Zone Zeal</a></li>
+                            <li><a href="../aboutus/competitions/2003.htm">2002-2003: Stack Attack</a></li>
+                            <li><a href="../aboutus/competitions/2004.htm">2003-2004: Botball</a></li>
+                            <li><a href="../aboutus/competitions/2005.htm">2004-2005: Triple Play</a></li>
+                            <li><a href="../aboutus/competitions/2006.htm">2005-2006: Aim High</a></li>
+                            <li><a href="../aboutus/competitions/2006s.htm">Summer 2006: OUTball Blitz</a></li>
+                            <li><a href="../aboutus/competitions/2006f.htm">Fall 2006: In The Zone</a></li>
+                        	<li><a href="../aboutus/competitions/2007.htm">2006-2007: Rack 'N' Roll</a></li>
+                        	<li><a href="../aboutus/competitions/2007.htm">Fall 2007: Bridge Battle</a></li>
+                        	<li><a href="../aboutus/competitions/2008.htm">2007-2008: FIRST Overdrive</a></li>
+                        	<li><a href="../aboutus/competitions/2008.htm">2008-2009: Elevation</a></li>
+                        	<li><a href="../aboutus/competitions/2009f.htm">2008-2009: Lunacy</a></li>
+                            <li><a href="../aboutus/competitions/2009.htm">2009-2010: Clean Sweep</a></li>
+                            <li><a href="../aboutus/competitions/2010f.htm">2009-2010: Breakaway</a></li>
+                        </ul>
+                    </li>
+					<li><a href="../aboutus/awards.htm#a">Awards</a></li>
+					<li><a href="../aboutus/outreach.htm">Community Outreach</a></li>
+					<li><a href="../aboutus/fundraising.htm">Fundraising</a></li>
+                    <li><a href="../aboutus/video.htm">Video Gallery</a></li>
+				</ul>
+			</li>
+			<li><div class="sr" id="aSponsors"><a href="../sponsors.htm">SPONSORS</a></div></li>
+			<li><div class="rs" id="aSource"><a href="../resources.htm">RESOURCES</a></div>
+            <ul class="level2">
+                        	<li><a href="../faq.htm" style="width:160px">FAQ</a></li>
+                        	<li><a href="../sitemap.htm" style="width:160px">Site Map</a></li>
+                       </ul>
+            </li>
+			<li><div class="ct" id="aContacts"><a href="../contactus.php">CONTACTS</a></div></li>
+		    
+	      </ul>
+	    </div>
+  </div>
+  <div id="divContentWrapper">
+ 
+		
+			<div id="divContent"><!-- TemplateBeginEditable name="main content area" -->
+			  <table width="730" border="0">
+                <tr>
+                  <td width="125"><a href="../robot.htm"><img src="../robot/images/hotlava.gif" width="125" height="25" border="0" /></a></td>
+                  <td width="400">&nbsp; </td>
+                  <td width="191"><div align="right"><a href="../first/robot/mechanics.htm"><img src="../first/robot/images/mechanics.gif" alt="Mechanical" width="40" height="40" border="0" /></a> <a href="../first/robot/electronics.htm"><img src="../first/robot/images/electronics.gif" alt="Electrical" width="40" height="40" border="0" /></a> <a href="../first/robot/control/usercontrol.htm"><img src="../first/robot/images/control.gif" alt="Controls" width="40" height="40" border="0" /></a> <a href="../first/robot/techspecs.htm"><img src="../first/robot/images/tech.gif" alt="Specifications" width="40" height="40" border="0" /></a></div></td>
+                </tr>
+              </table>
+			  <p>Content area</p>
+			<!-- TemplateEndEditable --></div>
+  </div>
+</div>
+<div id="divFooter">1999-2011 © President William McKinley High School Robotics</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-2862862-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>
+ 

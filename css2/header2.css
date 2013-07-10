@@ -1,0 +1,128 @@
+/* CSS Document */
+
+#divNavigation {
+	float: left;
+	width: 728px;
+	height: 33px;
+	background-image: url(../images/menu2.gif);
+	background-repeat: repeat-x;
+	margin-top: 11px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+#divNavigation ul {
+	padding: 0px;
+	list-style-type: none;
+	margin: 0;
+}
+#divNavigation li {
+	display: block;
+	float: left;
+}
+#divNavigation li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	float: left;
+	height: auto;
+	padding-top: 9px;
+	padding-right: 15px;
+	padding-bottom: 8px;
+	padding-left: 15px;
+	margin: 0px;
+}
+#divNavigation li a:hover {
+	color:#FFFFFF;
+	background-image: url(../images/menuhover2.gif);
+	background-repeat: repeat;
+	background-position: left top;
+}
+body.Home #aHome,
+body.Current #aCurrent,
+body.Aboutus #aAboutus,
+body.Members #aMembers,
+body.Sponsors #aSponsors,
+body.First #aFirst,
+body.Vex #aVex,
+body.Links #aLinks,
+body.Contacts #aContacts {
+	background-image: url(../images/menucurrent2.gif);
+	color:#000000;
+}
+#divLogo {
+	height: 100px;
+	width: 796px;
+	float: left;
+	border: 1px solid #000000;
+	color: #FFFFFF;
+	margin-bottom: 5px;
+}
+#divNavigation ul li {
+	position: relative;
+}
+#divNavigation ul ul{
+	position: absolute;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+	display: none;
+	top: 33px;
+	height: 20px;
+	width: 167px;
+	left: 0;
+}
+#divNavigation ul ul a {
+	padding: 0px;
+	padding-left: 15px;
+	height: 18px;
+	width: 150px;
+	background-color:#000000;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #FFFFFF;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFFFFF;
+	border-bottom:solid;
+	border-bottom-color:#FFFFFF;
+	border-bottom-width: 1px;
+	
+}
+#divNavigation ul ul a:hover ul{
+	background-color:#999999;
+}
+#divNavigation li:hover ul, #divNavigation li.over ul {
+	display: block;
+}#divHome {
+	height: 60px;
+	width: 70px;
+	float: left;
+	background-image: url(../images/homebutton.gif);
+	background-repeat: no-repeat;
+	clear: both;
+}
+#divHome li {
+	display: block;
+	height: 60px;
+	width: 70px;
+	float: left;
+}
+#divHome li a {
+	padding-right: 33px;
+	padding-bottom: 60px;
+	padding-left: 33px;
+	float: left;
+}
+#divHome li a:hover {
+	background-image: url(../images/homebuttonhover.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	float: left;
+}

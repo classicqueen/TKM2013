@@ -1,0 +1,39 @@
+/* CSS Document */
+
+#divContent {
+	float: none;
+	padding-top: 20px;
+	padding-right: 35px;
+	/*padding-bottom: 30px; */
+	padding-left: 35px;
+	width: auto;
+	background-color: #000000;
+	padding-bottom: 3000px;
+	margin-bottom: -2950px;
+	color: #FFFFFF;
+}
+#divContentWrapper{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	overflow: hidden;
+	border: 1px solid #999999;
+}
+#divContent2 {
+	float: none;
+	padding-top: 20px;
+	padding-right: 35px;
+	/*padding-bottom: 30px; */
+	padding-left: 35px;
+	width: auto;
+	background-color: #FFFFFF;
+	padding-bottom: 3000px;
+	margin-bottom: -2950px;
+	color: #000000;
+}
+#mechanicscontent a {
+	color: #FF0000;
+}
+#electronicscontent a {
+	color: #0099FF;
+}

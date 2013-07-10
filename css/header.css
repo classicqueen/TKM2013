@@ -1,0 +1,196 @@
+/* CSS Document */
+
+a:link img {
+	border:none;
+}
+
+#divLogo .blank{
+	float:left;
+	margin-top: 64px;
+	margin-left:-1px;
+	background-image:url(../images/invisible.png);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+#menu .he a{
+	height: 25px;
+	width: 85px;
+	float: left;
+	background-color: #242424;
+	background-repeat: repeat-x;
+	text-decoration: none;
+	font-weight:bold;
+	color: #FFFFFF;
+	padding-top:10px;
+	text-align:center;
+}
+
+#menu .he a:hover {
+	color:#ffff00;
+	background-color: #545454;
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+#menu .ft a{
+	height: 25px;
+	width: 151px;
+	float: left;
+	background-color: #242424;
+	background-repeat: repeat-x;
+	text-decoration: none;
+	font-weight:bold;
+	color: #FFFFFF;
+	padding-top:10px;
+	text-align:center;
+}
+
+#menu .ft a:hover {
+	color:#ffff00;
+	background-color: #545454;
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+#menu .tr a{
+	height: 25px;
+	width: 130px;
+	float: left;
+	background-color: #242424;
+	background-repeat: repeat-x;
+	text-decoration: none;
+	font-weight:bold;	
+	color: #FFFFFF;
+	padding-top:10px;
+	text-align:center;
+}
+
+#menu .tr a:hover {
+	color:#ffff00;
+	background-color: #545454;
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+#menu .at a{
+	height: 25px;
+	width: 114px;
+	float: left;
+	background-color: #242424;
+	background-repeat: repeat-x;
+	text-decoration: none;
+	font-weight:bold;	
+	color: #FFFFFF;
+	padding-top:10px;
+	text-align:center;
+}
+
+#menu .at a:hover {
+	color:#ffff00;
+	background-color: #545454;
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+
+#menu .rs a{
+	height: 25px;
+	width: 119px;
+	float: left;
+	background-color: #242424;
+	background-repeat: repeat-x;
+	text-decoration: none;
+	font-weight:bold;	
+	color: #FFFFFF;
+	padding-top:10px;
+	text-align:center;
+}
+
+#menu .rs a:hover {
+	color:#ffff00;
+	background-color: #545454;
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+#menu .sr a{
+	height: 25px;
+	width: 94px;
+	float: left;
+	background-color: #242424;
+	background-repeat: repeat-x;
+	text-decoration: none;
+	font-weight:bold;	
+	color: #FFFFFF;
+	padding-top:10px;
+	text-align:center;
+}
+
+#menu .sr a:hover {
+	color:#ffff00;
+	background-color: #545454;
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+#menu .ct a{
+	height: 25px;
+	width: 111px;
+	float: left;
+	background-color: #242424;
+	background-repeat: repeat-x;
+	text-decoration: none;
+	font-weight:bold;	
+	color: #FFFFFF;
+	padding-top:10px;
+	text-align:center;
+}
+
+#menu .ct a:hover {
+	color:#ffff00;
+	background-color: #545454;
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+
+body.Home #aHome,
+body.Current #aCurrent,
+body.Aboutus #aAboutus,
+body.Members #aMembers,
+body.Sponsors #aSponsors,
+body.First #aFirst,
+body.Links #aLinks,
+body.Contacts #aContacts {
+	background-image: url(../images/menucurrent2.gif);
+	color:#000000;
+}
+#divLogo {
+	display: block;
+	height: 150px;
+	background-image:url(../images/banner.png);
+	background-repeat:no-repeat;
+	width: 969px;
+	float: left;
+	background-color: #000000;
+	border-left-width: 2px;
+	border-left-color: #000000;
+	border-left-style: solid;
+	border-right-width: 2px;
+	border-right-color: #000000;
+	border-right-style: solid;
+	border-top-width: 2px;
+	border-top-color: #000000;
+	border-top-style: solid;			
+	/*
+	border: 1px solid #FFFFFF;
+	color: #000000;*/
+	margin-bottom: 0px;/*5px*/
+}
+#divHome {
+	height: 50px;
+	width: 70px;
+	float: left;
+}
+

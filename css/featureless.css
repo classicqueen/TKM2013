@@ -1,0 +1,113 @@
+#slider li.ui-tabs-nav-item.a:hover,
+#slider ul.ui-tabs-nav li.ui-tabs-selected.a{
+	background-image:url(../vex/bots/thumbnails/a.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#slider li.ui-tabs-nav-item.b:hover,
+#slider ul.ui-tabs-nav li.ui-tabs-selected.b{
+	background-image:url(../vex/bots/thumbnails/b.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#slider li.ui-tabs-nav-item.c:hover,
+#slider ul.ui-tabs-nav li.ui-tabs-selected.c{
+	background-image:url(../vex/bots/thumbnails/c.jpg);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+#slider li.ui-tabs-nav-item.d:hover,
+#slider ul.ui-tabs-nav li.ui-tabs-selected.d
+{
+	background-image:url(../vex/bots/thumbnails/d.jpg);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+#slider li.ui-tabs-nav-item.e:hover,
+#slider ul.ui-tabs-nav li.ui-tabs-selected.e{
+	background-image:url(../vex/bots/thumbnails/e.jpg);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+#slider li.ui-tabs-nav-item.f:hover,
+#slider ul.ui-tabs-nav li.ui-tabs-selected.f{
+	background-image:url(../vex/bots/thumbnails/f.jpg);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+#slider{ 
+	z-index:0;
+	width:830px; 
+	height:515px;
+	padding:0px;
+	position:relative;
+	border:0px;
+	text-align:left;
+}
+#slider ul.ui-tabs-nav{
+	position:absolute; 
+	top:0; left:0px; 
+	list-style:none;
+	padding:0; margin:0;
+	width:830px;
+	border:0px;
+	height:143px;
+	background-image:url(../vex/bots/bwbots.jpg);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+#slider ul.ui-tabs-nav li{ 
+	padding:0;
+}
+
+#slider li.ui-tabs-nav-item{
+	position:absolute;
+	display:block; 
+}
+
+#slider li.ui-tabs-nav-item.a{
+	top:0px;
+	left:0px;
+}
+
+#slider li.ui-tabs-nav-item.b{
+	top:0px;
+	left:155px;
+}
+
+#slider li.ui-tabs-nav-item.c{
+	top:0px;
+	left:290px;
+}
+
+#slider li.ui-tabs-nav-item.d{
+	top:0px;
+	left:420px;
+}
+
+#slider li.ui-tabs-nav-item.e{
+	top:0px;
+	left:560px;
+}
+
+#slider li.ui-tabs-nav-item.f{
+	top:0px;
+	left:680px;
+}
+
+#slider .ui-tabs-panel{
+	position:relative;
+	top:163px;
+	width:830px; height:350px;
+}
+
+#slider .ui-tabs-hide{ 
+	display:none; 
+}

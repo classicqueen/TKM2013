@@ -1,0 +1,204 @@
+/**
+ *********************************************
+ * Prototype of styles for horizontal CSS-menu
+ * @data 25.01.2010
+ *********************************************
+ * (X)HTML-scheme:
+ *  <div id="menu">
+ *      <ul class="menu">
+ *          <li><a href="#" class="parent"><span>level 1</span></a>
+ *              <div><ul>
+ *                  <li><a href="#" class="parent"><span>level 2</span></a>
+ *                      <div><ul><li><a href="#"><span>level 3</span></a></li></ul></div>
+ *                  </li>
+ *              </ul></div>
+ *          </li>
+ *          <li class="last"><a href="#"><span>level 1</span></a></li>
+ *      </ul>
+ *  </div>
+ *********************************************
+ */
+
+/* menu::base */
+#menu {
+    float: left;
+    z-index:100;
+    height:43px;
+	width: 972px;
+	/*
+	position:relative;
+	top:40px;
+    left:0px;
+    width:100%;
+	*/
+    background:transparent url(images/header_bg.gif) repeat-x 0 0;  
+}
+#menu .menu {
+    /*
+	position:absolute;
+    padding-left: 40px;
+	*/
+    background: url(images/header_bg.gif) right top no-repeat; 
+	z-index: 100;
+}
+#menu * {
+    list-style:none;
+    border:0;
+    padding:0;
+    margin:0;
+	z-index: 100;
+}
+#menu a {
+    display:block;
+    padding:13px 24px 14px 23px;
+    white-space:nowrap;
+}
+#menu li {
+    float:left;
+    background:#ffed38;
+}
+#menu li li {
+    float:none;
+}
+#menu div {
+    visibility:hidden;
+    position:absolute;
+    background:url(images/pix.gif);
+}
+#menu div div {
+    margin:-35px 0 0 0;
+    left:100%;
+}
+#menu div div div {
+    margin:-35px 0 0 -1px;
+    left:100%;
+}
+#menu li:hover>div { visibility:visible; }
+
+/* menu::special styles */
+/* menu::level 1 */
+#menu a {
+    text-decoration:none;
+    color:#ffffff;/*1*/
+    position:relative;
+    z-index:100;
+}
+#menu a:hover {
+    background:url(images/header.gif) left -43px repeat-x;
+    color:#ffed38;
+}
+#menu a:hover span { color:#FFFFFF; }
+
+/* ORIGINAL
+#menu li.current a {
+    background: transparent url(images/header_active.gif) repeat-x;
+    color:#3C4955;
+}
+
+#menu li.current span {
+    color:#3C4955;
+}
+*/
+
+
+
+
+
+#menu>ul>li:hover>a {
+    background:url(images/header.gif) left -43px repeat-x;
+    color:#CACFD3;
+}
+#menu>ul>li:hover>a span { color:#FFFFFF; }
+#menu span {
+    font:10pt Arial, Helvetica, sans-serif;
+    text-decoration:none;
+    color:#ffffff;
+	font-weight: bold;
+}
+#menu li { background: url(images/header_bg.gif) left top no-repeat;}
+/* menu::level >= 2 */
+#menu ul ul {
+	width: 190px;
+}
+#menu li li{
+	  background:#2B2E32;
+	  border-bottom:1px solid #FFFFFF;}
+#menu li li a {
+    position:static;
+    background:#2B2E32;
+    white-space:normal;
+    text-align: left;
+    color:#FFF;
+    padding:0;
+	text-transform:none;
+	width: 100%;
+}
+/*
+#menu li.current li a {
+    background: none;
+    color:#FFF;
+}
+#menu li.current li span {
+    color:#FFF;
+}
+*/
+
+#menu li li a:hover { background:#404040; }
+#menu li li a span { color:#fff; line-height: 15px; padding: 10px;	}
+#menu li li a:hover span { color:#ffffff; }
+#menu li li a.parent span{background:transparent url(images/arrow.gif) no-repeat scroll right 50%; z-index:10;  }
+
+#menu li li span {
+    display:block;
+    text-transform:none;
+    padding:0px 25px 0px 0px;
+    font-size:12px;
+    letter-spacing: 0;
+}
+
+body.Home li.aHome a {
+    background: transparent url(images/header_active.gif) repeat-x;
+    color:#3C4955;
+}
+
+body.Current li.aCurrent a {
+    background: transparent url(images/header_active.gif) repeat-x;
+    color:#3C4955;
+}
+
+body.Members li.aMembers a {
+    background: transparent url(images/header_active.gif) repeat-x;
+    color:#3C4955;
+}
+
+body.Aboutus li.aAboutus a {
+    background: transparent url(images/header_active.gif) repeat-x;
+    color:#3C4955;
+}
+
+body.Sponsors li.aSponsors a {
+    background: transparent url(images/header_active.gif) repeat-x;
+    color:#3C4955;
+}
+
+body.Links li.aLinks a {
+    background: transparent url(images/header_active.gif) repeat-x;
+    color:#3C4955;
+}
+
+body.Contacts li.aContacts a {
+    background: transparent url(images/header_active.gif) repeat-x;
+    color:#3C4955;
+}
+
+#menu li.link {
+	width: 40px;
+	margin-left:0px;
+	padding-right:0px;
+	text-decoration: none;
+}
+
+#menu li.link img{
+	margin-top:-4px;
+	margin-left:-12px;
+}

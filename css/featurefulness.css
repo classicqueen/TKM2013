@@ -1,0 +1,161 @@
+#yeartab{ 
+	z-index:0;  
+	position:relative;
+}
+
+#yeartab ul.ui-tabs-nav{
+	list-style:none;
+	position:absolute;	
+}
+
+#yeartab ul.ui-tabs-nav li{   
+	display:block; 
+}
+
+#yeartab li.ui-tabs-nav-first a:hover{ 
+	background:url(../members/students/year/firstyearselected.png);
+	background-repeat:no-repeat;
+}
+
+#yeartab li.ui-tabs-nav-second a:hover{ 
+	background:url(../members/students/year/secondyearselected.png);
+	background-repeat:no-repeat;	
+}
+
+#yeartab li.ui-tabs-nav-third a:hover{ 
+	background:url(../members/students/year/thirdyearselected.png);
+	background-repeat:no-repeat;
+}
+
+#yeartab li.ui-tabs-nav-fourth a:hover{ 
+	background:url(../members/students/year/fourthyearselected.png);
+	background-repeat:no-repeat;
+	width:150px;
+	height:40px;	
+}
+
+#yeartab li.ui-tabs-nav-all a:hover{ 
+	background:url(../members/students/year/allyearsselected.png);
+	background-repeat:no-repeat;
+	width:150px;
+	height:40px;	
+}
+
+#yeartab li.ui-tabs-nav-first.ui-tabs-selected a{ 
+    background:url(../members/students/year/firstyearselected.png);
+	background-repeat:no-repeat;
+	width:150px;
+	height:40px;	
+}
+
+#yeartab li.ui-tabs-nav-second.ui-tabs-selected a{ 
+    background:url(../members/students/year/secondyearselected.png);
+	background-repeat:no-repeat;
+	width:150px;
+	height:40px;	
+}
+
+#yeartab li.ui-tabs-nav-third.ui-tabs-selected a{ 
+    background:url(../members/students/year/thirdyearselected.png);
+	background-repeat:no-repeat;
+	width:150px;
+	height:40px;
+}
+
+#yeartab li.ui-tabs-nav-fourth.ui-tabs-selected a{ 
+    background:url(../members/students/year/fourthyearselected.png);
+	background-repeat:no-repeat;
+	width:150px;
+	height:40px;
+}
+
+#yeartab li.ui-tabs-nav-all.ui-tabs-selected a{ 
+    background:url(../members/students/year/allyearsselected.png);
+	background-repeat:no-repeat;
+	width:150px;
+	height:40px;
+}
+
+#yeartab ul.ui-tabs-nav a{ 
+
+}
+#yeartab li.ui-tabs-nav-first {  
+	background:url(../members/students/year/firstyear.png);
+	border:none;
+	background-repeat:no-repeat;	
+	width:150px;
+	height:40px;
+	text-align:center;
+	position:relative;
+	margin-left:18px;			
+}
+#yeartab li.ui-tabs-nav-second {  
+	background:url(../members/students/year/secondyear.png);
+	border:none;
+	background-repeat:no-repeat;	
+	width:150px;
+	height:40px;
+	text-align:center;
+	position:relative;
+	margin-left:23px;		
+}
+#yeartab li.ui-tabs-nav-third {  
+	background:url(../members/students/year/thirdyear.png);
+	border:none;
+	background-repeat:no-repeat;
+	width:150px;
+	height:40px;
+	text-align:center;
+	position:relative;
+	margin-left:23px;			
+}
+#yeartab li.ui-tabs-nav-fourth {  
+	background:url(../members/students/year/fourthyear.png);
+	border:none;
+	background-repeat:no-repeat;
+	width:150px;
+	height:40px;
+	text-align:center;
+	position:relative;
+	margin-left:25px;		
+}
+#yeartab li.ui-tabs-nav-all {  
+	background:url(../members/students/year/allyears.png);
+	border:none;
+	background-repeat:no-repeat;	
+	width:150px;
+	height:40px;
+	text-align:center;
+	position:relative;
+	margin-left:15px;	
+}
+#yeartab li.ui-tabs-nav-sep {  
+	background:#FFF;
+	border:none;
+	padding-top:19px;
+	width:13px;
+	height:20px;
+	text-align:center;
+	position:relative;
+}
+#yeartab .ui-tabs-panel{ 
+	position:relative;
+}
+#yeartab .ui-tabs-panel .info{ 
+
+}
+#yeartab .info h2{ 
+ 
+}
+#yeartab .info p{ 
+
+}
+#yeartab .info a{ 
+ 
+}
+#yeartab .info a:hover{ 
+ 
+}
+#yeartab .ui-tabs-hide{ 
+	display:none; 
+}
